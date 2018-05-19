@@ -34,4 +34,4 @@ $ npm run styles
 ```
 $ npm run perfect
 ```
-##### [Note] This will make your new output.min.css file readable and back to normal, but clean and without as many repeating styles while adding in vendor prefixes.
+##### [Note] This will make your new styles.min.css file readable and back to normal, but clean and without as many repeating styles while adding in vendor prefixes.
