@@ -1,0 +1,180 @@
+/* BAD CSS FILE */
+
+h1 svg {
+  height: 33px;
+  max-width: 100px;
+}
+
+.svg-logo-fill {
+  fill:#231F20;
+}
+
+
+
+
+            .project-wrapper p {
+
+    column-count: 2;
+
+}
+
+#about ul {
+
+column-count: 2;
+  margin-top: 10px;
+}
+
+.nav-btn, #work li {
+  cursor: pointer;
+}
+
+section .nav-btn {
+  box-shadow: -5px -3px 11px -8px rgba(0,0,0,0.5);
+}
+
+.nav-btn:hover:after {
+  transition: all 0.1s cubic-bezier(0.000, 0.590, 1.000, 0.260);
+}
+
+section .nav-btn:before {
+  transform: perspective(40px) rotateX(31deg);
+  transform-origin: 0% 63%;
+}
+
+
+
+
+.landing img {
+/*  mix-blend-mode: multiply;*/
+ /* max-height: 100px;*/
+}
+
+.col-1-3 > .col-1 {
+  display: flex;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+  appearance: none;
+}
+
+input[type="checkbox"]:after {
+    transform: rotate(45deg);
+}
+
+.landing {
+    animation-name: slideUp;
+    animation-delay: 2.3s;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+.landing-top {
+
+  transform: rotate(0deg) scale(0.954) skew(-35deg) translate(0px);
+}
+
+/* Hour glass gif */
+
+
+
+/* Hidden Pencil */
+
+.pencil-container {
+/*  left: -200px;
+  top: 50px;*/
+    transform: rotate(15deg);
+}
+
+.pencil-slide-animation {
+    animation: pencilMove 2s forwards;
+    animation-duration: 1s;
+}
+
+.pencil-slide-animation-back {
+
+  animation: pencilMoveBack 2s forwards;
+animation-duration: 1s;
+}
+
+.pencil-head {
+  transform:rotate(45deg) scale(1.1) skew(20deg,20deg);
+}
+
+.pencil-graphite {
+  transform: rotate(-279deg) scale(1.1) skew(9deg,201deg);
+  clip-path: polygon(50% 10%, 18% 109%, 110% 87%);
+}
+
+.pencil-body, .pencil-bottom-metal {
+  display: flex;
+}
+
+/* Animations */
+
+.fade-in {
+  opacity: 1;
+
+          animation-name: fadeInOpacity;
+
+          animation-iteration-count: 1;
+
+          animation-timing-function: ease-in;
+          animation-duration: .5s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+@keyframes slideUp {
+  from {
+
+            transform: translateY(0%);
+  }
+
+  to {
+  
+            transform: translateY(200%);
+  }
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.0;
+  }
+
+  100% {
+    opacity: 1.0;
+  }
+}
+
+.scale1 {
+
+          transform: scale(1) rotate(0deg);
+  opacity: 1;
+  transition: all 1s;
+  box-shadow: -1px -1px 5px -2px rgba(0,0,0,0.5);
+}
+
+
+
+@keyframes pencilMove {
+    0% {
+                transform: rotate(5deg) translatex(0px) translateY(0px);
+
+    }
+    100% {
+
+                transform: rotate(5deg) translatex(300px) translateY(50px);
+    }
+}
