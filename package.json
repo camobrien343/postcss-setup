@@ -1,0 +1,21 @@
+{
+  "name": "fuck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "styles": "postcss css/styles.css --config postcss.config.js --output css/build/output.min.css",
+    "perfect": "postcss --use perfectionist -r css/build/output.min.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^8.5.0",
+    "cssnano": "^3.10.0",
+    "perfectionist": "^2.4.0",
+    "postcss-cli": "^5.0.0",
+    "postcss-cssnext": "^3.1.0",
+    "precss": "^3.1.2"
+  }
+}
